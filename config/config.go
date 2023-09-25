@@ -5,6 +5,7 @@ import "github.com/caarlos0/env/v8"
 type Config struct {
 	Bot     BotConfig `envPrefix:"BOT_"`
 	Channel string    `env:"CHANNEL"`
+	UserId  string    `env:"USER_ID"`
 }
 
 type BotConfig struct {
